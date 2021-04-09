@@ -3,8 +3,8 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'UIKitBecaiOS_Example' do
-  #pod 'UIKitBecaiOS', :path => '../'
-  pod 'UIKitBecaiOS', :git => 'https://github.com/henrymelo/UIKitBecaiOS.git', branch => 'develop'
+  pod 'UIKitBecaiOS', :path => '../'
+  #pod 'UIKitBecaiOS', :git => 'https://github.com/henrymelo/UIKitBecaiOS.git', branch => 'develop'
 
 
   target 'UIKitBecaiOS_Tests' do

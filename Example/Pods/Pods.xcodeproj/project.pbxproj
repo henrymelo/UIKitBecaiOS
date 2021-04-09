@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		04791BF30E20993D14CA9CD2868A34E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0C9064B1AB997759349E256E1544A3AD /* MyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A9742B5BE3A0E3D6BDEE7E7C8331B /* MyComponent.swift */; };
 		6892A75242C43D17D08A3B1C8A011B6F /* Pods-UIKitBecaiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA114DE1F3817453793A6F4A5BE92B36 /* Pods-UIKitBecaiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79915715CD80E2BFAEBA7CEC442DE825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8BF217369CCF1442E69D0B22473D0E16 /* UIKitBecaiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BCA8CD4E18030559DBE12C0FA318E /* UIKitBecaiOS-dummy.m */; };
-		9F5E800FFCE4D9FE6B248BE358BD70AF /* MyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49342BF7759E884AF33994943A5FC0B0 /* MyComponent.swift */; };
+		7B3AE9919D511AC13F53185298B917B7 /* UIKitBecaiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9AC500E400ADD1BE312A1E8816D551 /* UIKitBecaiOS-dummy.m */; };
 		A35EDFE25FF258833847B223FEEBBCA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A6ADBE6A304975E0F8ACFD34202AF316 /* Pods-UIKitBecaiOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CA4D7ED3B66324771350F56FDE06F8 /* Pods-UIKitBecaiOS_Example-dummy.m */; };
 		D1796A62FB4138AC75D44616120B42EA /* Pods-UIKitBecaiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEE40E00C1E9863EFD69018BDB0FCA9 /* Pods-UIKitBecaiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC2B0163C4E559439D445A1DCE5A9242 /* UIKitBecaiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 187CD9BC727B82544A1A252B86A6452A /* UIKitBecaiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2B0163C4E559439D445A1DCE5A9242 /* UIKitBecaiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DCB6D718BA389630449ADA875BFFBC /* UIKitBecaiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBB241743C5C79389787337BA7A735D8 /* Pods-UIKitBecaiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D68CB3669E70F19E0A7BDB561E57A1 /* Pods-UIKitBecaiOS_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -38,36 +38,36 @@
 
 /* Begin PBXFileReference section */
 		0396D9D57E312440B32503F39233DA3D /* Pods-UIKitBecaiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitBecaiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		187CD9BC727B82544A1A252B86A6452A /* UIKitBecaiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKitBecaiOS-umbrella.h"; sourceTree = "<group>"; };
 		1964286CEAA0E13FC30109258EE75D54 /* Pods-UIKitBecaiOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKitBecaiOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		19F1C7C3425983B8E9E0E6390D441095 /* Pods_UIKitBecaiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitBecaiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F1C7C3425983B8E9E0E6390D441095 /* Pods_UIKitBecaiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIKitBecaiOS_Tests.framework; path = "Pods-UIKitBecaiOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D68CB3669E70F19E0A7BDB561E57A1 /* Pods-UIKitBecaiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIKitBecaiOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		293A9742B5BE3A0E3D6BDEE7E7C8331B /* MyComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyComponent.swift; path = UIKitBecaiOS/Classes/ViewModel/MyComponent.swift; sourceTree = "<group>"; };
 		2E0B433DF74EA29306BA61E0D4AEE16B /* Pods-UIKitBecaiOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKitBecaiOS_Example-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3309D019212E2B9D488DAA3BCBBE1679 /* UIKitBecaiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIKitBecaiOS.modulemap; sourceTree = "<group>"; };
+		36DCB6D718BA389630449ADA875BFFBC /* UIKitBecaiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKitBecaiOS-umbrella.h"; sourceTree = "<group>"; };
 		3A4A27A7D909D3DF5DD0C55133443E25 /* Pods-UIKitBecaiOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKitBecaiOS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3D8BCA8CD4E18030559DBE12C0FA318E /* UIKitBecaiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIKitBecaiOS-dummy.m"; sourceTree = "<group>"; };
 		437A8B531F8915E636F2D339DA416377 /* Pods-UIKitBecaiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitBecaiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		49342BF7759E884AF33994943A5FC0B0 /* MyComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyComponent.swift; sourceTree = "<group>"; };
+		47E218AC297E25C1C35B2BF1D7F91645 /* UIKitBecaiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UIKitBecaiOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C6623436BDF50C03470B69B9BCA423B /* UIKitBecaiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIKitBecaiOS.xcconfig; sourceTree = "<group>"; };
 		4E2EF1B2B165A0D8A2C5F9DB83F0506E /* Pods-UIKitBecaiOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKitBecaiOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		542A5B81618096D85BA16A81926DCE9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		582B3976FFA1D0AB6A8DD65CC727371F /* UIKitBecaiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UIKitBecaiOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5AEE40E00C1E9863EFD69018BDB0FCA9 /* Pods-UIKitBecaiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKitBecaiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		83503C618717EE97178B77B07660856C /* UIKitBecaiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKitBecaiOS-prefix.pch"; sourceTree = "<group>"; };
+		6007C5A54CD6917F518C6887A07916FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		88753B442F15233B20E34013B5009B81 /* Pods-UIKitBecaiOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKitBecaiOS_Tests.modulemap"; sourceTree = "<group>"; };
-		8B7B41D1A5AA93F7ED60B4C964361F57 /* Pods_UIKitBecaiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitBecaiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A023139F40462FF53E3486F1CCAF76AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8B7B41D1A5AA93F7ED60B4C964361F57 /* Pods_UIKitBecaiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIKitBecaiOS_Example.framework; path = "Pods-UIKitBecaiOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2593221529AC8EF681964E005C90E4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A343F05C3096F4F2A5C0CCDB6475F055 /* Pods-UIKitBecaiOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKitBecaiOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A4E7AE0888C0C5EB3B9C6146DB1FE587 /* UIKitBecaiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIKitBecaiOS.xcconfig; sourceTree = "<group>"; };
 		ABB8663729FFC566BA8C97508E3BA4C4 /* Pods-UIKitBecaiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitBecaiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7CA4D7ED3B66324771350F56FDE06F8 /* Pods-UIKitBecaiOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIKitBecaiOS_Example-dummy.m"; sourceTree = "<group>"; };
+		BC9AC500E400ADD1BE312A1E8816D551 /* UIKitBecaiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIKitBecaiOS-dummy.m"; sourceTree = "<group>"; };
+		C4B9C6484E0D4ADF6ADED3274FC756EA /* UIKitBecaiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIKitBecaiOS-Info.plist"; sourceTree = "<group>"; };
 		D23C84FEB66C1BCD8ED2DF875A00DA61 /* Pods-UIKitBecaiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitBecaiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DAA9414BAFDBD3E146148D065B49A765 /* Pods-UIKitBecaiOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKitBecaiOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E100036BC9980692067AD1B3C9547E26 /* UIKitBecaiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKitBecaiOS-prefix.pch"; sourceTree = "<group>"; };
 		E2A3ECE4FFB2CBB95D115478106D607C /* Pods-UIKitBecaiOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKitBecaiOS_Example.modulemap"; sourceTree = "<group>"; };
+		F5FDE645209C94F983506F70059F4BA0 /* UIKitBecaiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIKitBecaiOS.modulemap; sourceTree = "<group>"; };
 		FA114DE1F3817453793A6F4A5BE92B36 /* Pods-UIKitBecaiOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKitBecaiOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		FAE911CE3876BD7241E39DEAB1BDD7ED /* UIKitBecaiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIKitBecaiOS-Info.plist"; sourceTree = "<group>"; };
-		FB82E3BA725D0890E6E629780AF8F330 /* UIKitBecaiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitBecaiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB82E3BA725D0890E6E629780AF8F330 /* UIKitBecaiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIKitBecaiOS.framework; path = UIKitBecaiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9160CACBA507E60072D10E55A23CE3 /* Pods-UIKitBecaiOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKitBecaiOS_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,16 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D8DD77A1EDA668E9AC4A6465D9BFA55 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A023139F40462FF53E3486F1CCAF76AC /* LICENSE */,
-				542A5B81618096D85BA16A81926DCE9E /* README.md */,
-				582B3976FFA1D0AB6A8DD65CC727371F /* UIKitBecaiOS.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		1ECCDE231C8799EAA6C354AFEF99FDF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,47 +151,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		450014CA2F5E06DAB0D11491CB9652ED /* UIKitBecaiOS */ = {
+		59D34F2EB00D304AB99482FBD387A56F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BBCC2F572620DB9E008A1EEF /* Controller */,
-				BBCC2F592620DBAE008A1EEF /* ViewModel */,
-				BBCC2F5A2620DBB6008A1EEF /* View */,
-				BBCC2F582620DBA6008A1EEF /* Model */,
-				1D8DD77A1EDA668E9AC4A6465D9BFA55 /* Pod */,
-				D030BE91425A2B3DFCB64F727A02EE02 /* Support Files */,
+				A2593221529AC8EF681964E005C90E4E /* LICENSE */,
+				6007C5A54CD6917F518C6887A07916FC /* README.md */,
+				47E218AC297E25C1C35B2BF1D7F91645 /* UIKitBecaiOS.podspec */,
 			);
-			name = UIKitBecaiOS;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BBCC2F572620DB9E008A1EEF /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		BBCC2F582620DBA6008A1EEF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BBCC2F592620DBAE008A1EEF /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				49342BF7759E884AF33994943A5FC0B0 /* MyComponent.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		BBCC2F5A2620DBB6008A1EEF /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -210,6 +167,20 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C2597C59F55FBB83B8E243AD0F25987E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5FDE645209C94F983506F70059F4BA0 /* UIKitBecaiOS.modulemap */,
+				4C6623436BDF50C03470B69B9BCA423B /* UIKitBecaiOS.xcconfig */,
+				BC9AC500E400ADD1BE312A1E8816D551 /* UIKitBecaiOS-dummy.m */,
+				C4B9C6484E0D4ADF6ADED3274FC756EA /* UIKitBecaiOS-Info.plist */,
+				E100036BC9980692067AD1B3C9547E26 /* UIKitBecaiOS-prefix.pch */,
+				36DCB6D718BA389630449ADA875BFFBC /* UIKitBecaiOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIKitBecaiOS";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -223,20 +194,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D030BE91425A2B3DFCB64F727A02EE02 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3309D019212E2B9D488DAA3BCBBE1679 /* UIKitBecaiOS.modulemap */,
-				A4E7AE0888C0C5EB3B9C6146DB1FE587 /* UIKitBecaiOS.xcconfig */,
-				3D8BCA8CD4E18030559DBE12C0FA318E /* UIKitBecaiOS-dummy.m */,
-				FAE911CE3876BD7241E39DEAB1BDD7ED /* UIKitBecaiOS-Info.plist */,
-				83503C618717EE97178B77B07660856C /* UIKitBecaiOS-prefix.pch */,
-				187CD9BC727B82544A1A252B86A6452A /* UIKitBecaiOS-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UIKitBecaiOS";
-			sourceTree = "<group>";
-		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,10 +202,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC402AB26FA84FB8F222F817EBA10F13 /* UIKitBecaiOS */ = {
+			isa = PBXGroup;
+			children = (
+				293A9742B5BE3A0E3D6BDEE7E7C8331B /* MyComponent.swift */,
+				59D34F2EB00D304AB99482FBD387A56F /* Pod */,
+				C2597C59F55FBB83B8E243AD0F25987E /* Support Files */,
+			);
+			name = UIKitBecaiOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		FB1E934055F7D00F22AF548E92CF2B49 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				450014CA2F5E06DAB0D11491CB9652ED /* UIKitBecaiOS */,
+				EC402AB26FA84FB8F222F817EBA10F13 /* UIKitBecaiOS */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -288,7 +256,7 @@
 			buildConfigurationList = A8109EE6A6330C473AED1D00A98A8724 /* Build configuration list for PBXNativeTarget "UIKitBecaiOS" */;
 			buildPhases = (
 				998BB142C99130B5CA1933507004CB51 /* Headers */,
-				6C79B33CEBBD679988ACEF312905891E /* Sources */,
+				92296D2AB24E661F84D139E960D776EE /* Sources */,
 				2C97D6DA19B55EE7F59C9FEC15205B4E /* Frameworks */,
 				EDAFD8E40C8A7D8C6BA0B39DAD51B603 /* Resources */,
 			);
@@ -400,12 +368,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C79B33CEBBD679988ACEF312905891E /* Sources */ = {
+		92296D2AB24E661F84D139E960D776EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F5E800FFCE4D9FE6B248BE358BD70AF /* MyComponent.swift in Sources */,
-				8BF217369CCF1442E69D0B22473D0E16 /* UIKitBecaiOS-dummy.m in Sources */,
+				0C9064B1AB997759349E256E1544A3AD /* MyComponent.swift in Sources */,
+				7B3AE9919D511AC13F53185298B917B7 /* UIKitBecaiOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +472,7 @@
 		};
 		5D18B62C1E60FB3155969CF85F654861 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4E7AE0888C0C5EB3B9C6146DB1FE587 /* UIKitBecaiOS.xcconfig */;
+			baseConfigurationReference = 4C6623436BDF50C03470B69B9BCA423B /* UIKitBecaiOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -536,7 +504,7 @@
 		};
 		8E8C5ADC609E318056711B55D98888D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4E7AE0888C0C5EB3B9C6146DB1FE587 /* UIKitBecaiOS.xcconfig */;
+			baseConfigurationReference = 4C6623436BDF50C03470B69B9BCA423B /* UIKitBecaiOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -618,7 +586,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
