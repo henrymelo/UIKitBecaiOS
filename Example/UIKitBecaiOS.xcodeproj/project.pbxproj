@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* UIKitBecaiOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitBecaiOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		B3C1BE88CDCD37D5594ED003 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E46419EF5EAA0FD6FFBEAB82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F6BFDFCDE4D0A437A483677A /* UIKitBecaiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UIKitBecaiOS.podspec; path = ../UIKitBecaiOS.podspec; sourceTree = "<group>"; };
+		B3C1BE88CDCD37D5594ED003 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E46419EF5EAA0FD6FFBEAB82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F6BFDFCDE4D0A437A483677A /* UIKitBecaiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIKitBecaiOS.podspec; path = ../UIKitBecaiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8AE2B42673FE9932F27FA39 /* Pods-UIKitBecaiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Tests/Pods-UIKitBecaiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FDF9D560DEBD2514BC6B6714 /* Pods-UIKitBecaiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Example.release.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Example/Pods-UIKitBecaiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FEFC19FF9DDC75CB4C5ED483 /* Pods_UIKitBecaiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitBecaiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,11 +93,11 @@
 		607FACD21AFB9204008FA782 /* Example for UIKitBecaiOS */ = {
 			isa = PBXGroup;
 			children = (
+				BBCC2F5B2620DC0B008A1EEF /* Controller */,
+				BBCC2F5C2620DC21008A1EEF /* ViewModel */,
+				BBCC2F5E2620DC39008A1EEF /* View */,
+				BBCC2F5D2620DC2F008A1EEF /* Model */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for UIKitBecaiOS";
@@ -107,6 +107,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,8 +157,38 @@
 				45DD9A35E6C2B178917DEA9E /* Pods-UIKitBecaiOS_Tests.debug.xcconfig */,
 				F8AE2B42673FE9932F27FA39 /* Pods-UIKitBecaiOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BBCC2F5B2620DC0B008A1EEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BBCC2F5C2620DC21008A1EEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		BBCC2F5D2620DC2F008A1EEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BBCC2F5E2620DC39008A1EEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
