@@ -4,8 +4,7 @@ platform :ios, '9.0'
 
 target 'UIKitBecaiOS_Example' do
   #pod 'UIKitBecaiOS', :path => '../'
-  pod 'UIKitBecaiOS', :git => 'https://github.com/henrymelo/UIKitBecaiOS.git' #master
-  #pod 'UIKitBecaiOS', :git => 'https://github.com/henrymelo/UIKitBecaiOS.git', :branch => 'develop'
+  pod 'UIKitBecaiOS', :git => 'https://github.com/henrymelo/UIKitBecaiOS.git'
 
   target 'UIKitBecaiOS_Tests' do
     inherit! :search_paths
