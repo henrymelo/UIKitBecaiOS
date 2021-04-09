@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UIKitBecaiOS_Example' do
+  pod 'UIKitBecaiOS', :path => '../'
+
+  target 'UIKitBecaiOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
