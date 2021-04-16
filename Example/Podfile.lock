@@ -1,21 +1,16 @@
 PODS:
-  - UIKitBecaiOS (2.3.7)
+  - UIKitBecaiOS (2.3.12)
 
 DEPENDENCIES:
-  - UIKitBecaiOS (from `https://github.com/henrymelo/UIKitBecaiOS.git`)
+  - UIKitBecaiOS (from `../`)
 
 EXTERNAL SOURCES:
   UIKitBecaiOS:
-    :git: https://github.com/henrymelo/UIKitBecaiOS.git
-
-CHECKOUT OPTIONS:
-  UIKitBecaiOS:
-    :commit: f0b0a4696148602383fe9a804a42caae32db24fc
-    :git: https://github.com/henrymelo/UIKitBecaiOS.git
+    :path: "../"
 
 SPEC CHECKSUMS:
-  UIKitBecaiOS: e0b8ac2840104bac3d5cdf3d224baa9949973094
+  UIKitBecaiOS: c7337aa7e60d121caf4e6bf1a42c9b42fc75bfd6
 
-PODFILE CHECKSUM: 1faa227c88fb99659613f95a5fb5a43ef81d3af3
+PODFILE CHECKSUM: 190ede17b75f29a01926249ef73b89d152fa1c3b
 
 COCOAPODS: 1.8.3

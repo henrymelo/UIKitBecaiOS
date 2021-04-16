@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIKitBecaiOS'
-  s.version          = '2.3.7'
+  s.version          = '2.3.12'
   s.summary          = 'A short description of UIKitBecaiOS.'
 
 # This description is used to generate tags and improve search results.
