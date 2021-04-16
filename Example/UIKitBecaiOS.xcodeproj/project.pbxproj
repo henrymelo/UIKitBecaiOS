@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E52B397CF2DBA7B6AF87401E /* Pods_UIKitBecaiOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF50B2D9340195F91EA6A97 /* Pods_UIKitBecaiOS_Example.framework */; };
-		E942159B69EBF86DD7F9C59F /* Pods_UIKitBecaiOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB0B0CCEC596DC4D7ECA512 /* Pods_UIKitBecaiOS_Tests.framework */; };
+		C8C92C5EA6B42AF831A1B187 /* Pods_UIKitBecaiOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE02FCE24B990B54201FBF3 /* Pods_UIKitBecaiOS_Example.framework */; };
+		D1FD54E2245F768D3E5593CB /* Pods_UIKitBecaiOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD402B1D681C7E7B34D8AB72 /* Pods_UIKitBecaiOS_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27F8535E53460E64A3E49902 /* Pods-UIKitBecaiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Example.release.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Example/Pods-UIKitBecaiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		15E913CFD57F89A1A903FC9B /* Pods-UIKitBecaiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Tests/Pods-UIKitBecaiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UIKitBecaiOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitBecaiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* UIKitBecaiOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitBecaiOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6DB0B0CCEC596DC4D7ECA512 /* Pods_UIKitBecaiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitBecaiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BF50B2D9340195F91EA6A97 /* Pods_UIKitBecaiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitBecaiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A36D18B2E4BD5BD53C83E08 /* Pods-UIKitBecaiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Example/Pods-UIKitBecaiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A816A8314CCD7A1D9B934275 /* Pods-UIKitBecaiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Tests/Pods-UIKitBecaiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ACE02FCE24B990B54201FBF3 /* Pods_UIKitBecaiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitBecaiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C1BE88CDCD37D5594ED003 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C288A33344220264F91D230A /* Pods-UIKitBecaiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Tests/Pods-UIKitBecaiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C093C5FC7E6DA7E562725448 /* Pods-UIKitBecaiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Tests/Pods-UIKitBecaiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CD402B1D681C7E7B34D8AB72 /* Pods_UIKitBecaiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitBecaiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8B6B636D4C299C8B4B754C /* Pods-UIKitBecaiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Example.release.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Example/Pods-UIKitBecaiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E46419EF5EAA0FD6FFBEAB82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EFDB60317FA6639984742201 /* Pods-UIKitBecaiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitBecaiOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-UIKitBecaiOS_Example/Pods-UIKitBecaiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F6BFDFCDE4D0A437A483677A /* UIKitBecaiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIKitBecaiOS.podspec; path = ../UIKitBecaiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52B397CF2DBA7B6AF87401E /* Pods_UIKitBecaiOS_Example.framework in Frameworks */,
+				C8C92C5EA6B42AF831A1B187 /* Pods_UIKitBecaiOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E942159B69EBF86DD7F9C59F /* Pods_UIKitBecaiOS_Tests.framework in Frameworks */,
+				D1FD54E2245F768D3E5593CB /* Pods_UIKitBecaiOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				B3508D18B9D159578276BF6E /* Pods */,
-				8471C458C7BCB9F0A50CE82A /* Frameworks */,
+				A3A504A0342719866C18A9BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,11 +140,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		8471C458C7BCB9F0A50CE82A /* Frameworks */ = {
+		A3A504A0342719866C18A9BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8BF50B2D9340195F91EA6A97 /* Pods_UIKitBecaiOS_Example.framework */,
-				6DB0B0CCEC596DC4D7ECA512 /* Pods_UIKitBecaiOS_Tests.framework */,
+				ACE02FCE24B990B54201FBF3 /* Pods_UIKitBecaiOS_Example.framework */,
+				CD402B1D681C7E7B34D8AB72 /* Pods_UIKitBecaiOS_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,10 +152,10 @@
 		B3508D18B9D159578276BF6E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A36D18B2E4BD5BD53C83E08 /* Pods-UIKitBecaiOS_Example.debug.xcconfig */,
-				27F8535E53460E64A3E49902 /* Pods-UIKitBecaiOS_Example.release.xcconfig */,
-				C288A33344220264F91D230A /* Pods-UIKitBecaiOS_Tests.debug.xcconfig */,
-				A816A8314CCD7A1D9B934275 /* Pods-UIKitBecaiOS_Tests.release.xcconfig */,
+				EFDB60317FA6639984742201 /* Pods-UIKitBecaiOS_Example.debug.xcconfig */,
+				DB8B6B636D4C299C8B4B754C /* Pods-UIKitBecaiOS_Example.release.xcconfig */,
+				15E913CFD57F89A1A903FC9B /* Pods-UIKitBecaiOS_Tests.debug.xcconfig */,
+				C093C5FC7E6DA7E562725448 /* Pods-UIKitBecaiOS_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -198,11 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "UIKitBecaiOS_Example" */;
 			buildPhases = (
-				C0A1241BA0A9E406FE692CEA /* [CP] Check Pods Manifest.lock */,
+				6CDD0218AC97B8F96D8B16A4 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BCAC13B5AAD2B3F252135B23 /* [CP] Embed Pods Frameworks */,
+				11E7F93CB61EBB1CF240923D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,7 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "UIKitBecaiOS_Tests" */;
 			buildPhases = (
-				E82AD35EC4249216A43EB52E /* [CP] Check Pods Manifest.lock */,
+				F21668B95C80FD8ECC7620A4 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -294,7 +294,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BCAC13B5AAD2B3F252135B23 /* [CP] Embed Pods Frameworks */ = {
+		11E7F93CB61EBB1CF240923D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -312,7 +312,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIKitBecaiOS_Example/Pods-UIKitBecaiOS_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C0A1241BA0A9E406FE692CEA /* [CP] Check Pods Manifest.lock */ = {
+		6CDD0218AC97B8F96D8B16A4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,7 +334,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E82AD35EC4249216A43EB52E /* [CP] Check Pods Manifest.lock */ = {
+		F21668B95C80FD8ECC7620A4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -507,7 +507,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A36D18B2E4BD5BD53C83E08 /* Pods-UIKitBecaiOS_Example.debug.xcconfig */;
+			baseConfigurationReference = EFDB60317FA6639984742201 /* Pods-UIKitBecaiOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIKitBecaiOS/Info.plist;
@@ -522,7 +522,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27F8535E53460E64A3E49902 /* Pods-UIKitBecaiOS_Example.release.xcconfig */;
+			baseConfigurationReference = DB8B6B636D4C299C8B4B754C /* Pods-UIKitBecaiOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIKitBecaiOS/Info.plist;
@@ -537,7 +537,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C288A33344220264F91D230A /* Pods-UIKitBecaiOS_Tests.debug.xcconfig */;
+			baseConfigurationReference = 15E913CFD57F89A1A903FC9B /* Pods-UIKitBecaiOS_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -559,7 +559,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A816A8314CCD7A1D9B934275 /* Pods-UIKitBecaiOS_Tests.release.xcconfig */;
+			baseConfigurationReference = C093C5FC7E6DA7E562725448 /* Pods-UIKitBecaiOS_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
