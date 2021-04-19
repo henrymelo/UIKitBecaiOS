@@ -40,10 +40,10 @@ class ViewController: UIViewController {
     
     func showDetailsAction() {
         let vc = ViewDetailsVC.fromSB()
-        vc.setupUI(viewDetails: ViewDetailsUIVC(name: "namex",
-                                                sigla: "siglax",
-                                                price: 2.34,
-                                                idIcon: "idIconx", delegate: self))
+        vc.setupUI(ViewDetailsUIVC(name: "namex",
+                                   sigla: "siglax",
+                                   price: 2.34,
+                                   idIcon: "idIconx", delegate: self))
         self.present(vc, animated: true, completion: nil)
     }
     
