@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         
         nextButton.setTitle(ButtonBecaiOS.TituloClick, for: .highlighted)
         // Do any additional setup after loading the view, typically from a nib.
-        
     }
     
     /**
